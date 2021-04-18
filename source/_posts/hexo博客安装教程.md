@@ -56,7 +56,8 @@ deploy:
 ### 11.生成SSH秘钥
 命令：
 `ssh-keygen -t rsa -C example@gmail.com`
-`-C`后面跟住你在github的用户名邮箱，这样公钥才会被github认可
+
+
 
 - 11-1.如果没有报错，提示（enter file in which to save the key），一路回车enter
 

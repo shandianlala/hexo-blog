@@ -88,9 +88,8 @@ deploy:
 - type: git
   repo: 
     github: git@github.com:shandianlala/shandianlala.github.io.git
-    coding: git@git.coding.net:shandianlala/shandianlala.git
   branch: master
-  message: '站点更新:{{now("YYYY-MM-DD HH/mm/ss")}}'
+  message: 'update site:{{now("YYYY-MM-DD HH/mm/ss")}}'
 - type: baidu_url_submitter
   
 jsonContent:
